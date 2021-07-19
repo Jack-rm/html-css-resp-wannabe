@@ -80,10 +80,10 @@
 @media screen and (max-width: 420px) {
 
   #steps .row{
-      width: 100%;
-      padding: 5px 0;
-      font-size: 14px;
-      line-height: 16px;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 14px;
+    line-height: 16px;
   }
 
   #steps .row>.left,
@@ -102,8 +102,8 @@
     font-weight: bold;
     margin: 2px 0;
     padding-bottom: 20px;
+  }
 }
-
 
 /* BLOCCO PERCHE */
 #why {
@@ -123,6 +123,40 @@
   padding: 30px
 }
 
+@media screen and (max-width:420px) {
+
+  #why .row{
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    margin-top: 10px;
+  }
+
+  #why .row h3{
+    margin: 0;
+    font-size: 18px;
+  }
+
+  #why .row h1{
+    font-weight: bold;
+    margin: 2px 0;
+    padding-bottom: 20px;
+  }
+
+  #why .row img{
+    height: 50px;
+    padding: 15px;
+  }
+
+}
+
+
 /* COMMON */
 .row::after {
   content: '';
@@ -130,10 +164,10 @@
   clear: both;
 }
 
+
 .container.grey {
   background-color: #f9f9f9;
 }
-
 
 @media screen and (max-width: 420px) {
   .container.grey:nth-of-type(3) {
@@ -148,7 +182,7 @@ img {
 
 @media screen and (max-width: 420px) {
   img {
-    height: 100px;
+    height: 80px;
   }
 }
 
